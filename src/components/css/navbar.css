@@ -1,0 +1,26 @@
+.navbar-brand{
+    font-family: 'Hangyaboly',serif;
+}
+
+ul, li, Link{
+    list-style: none;
+}
+
+.navLink{
+    text-decoration: none;
+    font-size: large;
+    color: var(--light-theme-primary-color);
+}
+
+.navbar-brand{
+    font-family: 'Hangyaboly', Serif;
+    font-size: xx-large;
+}
+
+.navbar-brand.text1{
+    color: var(--light-theme-primary-color);
+}
+
+.navbar-brand.text2{
+    color: var(--light-theme-text-color);
+}

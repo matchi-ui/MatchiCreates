@@ -1,0 +1,80 @@
+.brand-name {
+    font-family: 'Hangyaboly', serif;
+}
+
+.brand-name.text1 {
+    color: var(--light-theme-primary-color);
+}
+
+.Text1 {
+    color: var(--light-theme-primary-color);
+}
+
+.primary-btn {
+    background-color: var(--light-theme-primary-color);
+    color: var(--light-theme-background-color);
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.container {
+    height: 90vh;
+    width: 100%;
+}
+
+
+#fraiche {
+
+    transform: rotate(30deg);
+}
+
+#lipenyo {
+    transform: rotate(-5deg);
+}
+
+.mock-container{
+    width: auto;
+    height: 100%;
+}
+
+.mockup-img{
+    width: auto;
+    height: 40%;
+}
+
+#matchi-img{
+    height: 70%;
+    width: auto;
+}
+
+@media screen and (max-width: 768px) {
+    #matchi-img {
+        display: none;
+    }    
+    #user {
+        width: 30% !important;
+    }
+
+    .text-bg {
+        display: none;
+    }
+
+    .mockup {
+        height: 30%;
+        width: 50%;
+    }
+
+    .cont-container {
+        flex-direction: column !important;
+        justify-content: center !important;
+        height: 100vh !important;
+    }
+}
+
+#user {
+    max-width: 60%;
+}

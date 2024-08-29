@@ -1,0 +1,9 @@
+.footer{
+        background-color: var(--light-theme-primary-color);
+    width: 100vw;
+    color: white !important;
+}
+
+.contact-info{
+    color: var(--light-theme-background-color);
+}

@@ -1,0 +1,26 @@
+.role-changer {
+    color: var(--light-theme-primary-color) !important;
+    font-family: 'Montserrat', serif;
+    font-size: xx-large;
+    display: inline-block;
+  } 
+  
+  .role {
+    display: inline-block;
+  }
+  
+  .cursor {
+    display: inline-block;
+    animation: blink 0.7s infinite;
+    color: var(--light-theme-primary-color) !important;
+  }
+  
+  @keyframes blink {
+    0%, 50% {
+      opacity: 1;
+    }
+    51%, 100% {
+      opacity: 0;
+    }
+  }
+  

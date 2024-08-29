@@ -1,0 +1,148 @@
+.container {
+    height: 80vh;
+    width: 100vw;
+}
+
+#hero-project {
+    height: 40vh;
+    color: var(--light-theme-primary-color);
+    background: radial-gradient(circle 60vw at bottom, var(--light-theme-secondary-color), var(--light-theme-primary-color));
+
+}
+
+.mockup{
+    position:absolute;
+    z-index: 1;
+}
+
+.mockup.mock-cont {
+    width: 100%;
+}
+
+.mockup.fraiche {
+    left: 15% !important;
+    max-width: 15vw;
+    height: auto;
+}
+
+.mockup.lipenyo {
+    left: 30%;
+    transform: rotate(10deg);
+    max-width: 5%;
+    height: auto;
+}
+
+.mockup.olbrs {
+    right: 10%;
+    max-width: 25vw;
+    height: auto;
+}
+
+/*Lipenyo*/
+.lipenyo {
+    color: white;
+}
+
+.lipenyo.title {
+    font-weight: bolder;
+}
+
+.lipenyo-img,
+.fraiche-img {
+    position: absolute;
+    width: 20%;
+    z-index: 1;
+}
+
+.container.lipenyo {
+    background: radial-gradient(circle 50vw at top left, #800000, #3A0000);
+}
+
+.lipenyo-img.splash {
+    top: 105%;
+    left: 35%;
+    width: 25%;
+    transform: rotate(30deg);
+}
+
+.lipenyo-img.dual {
+    top: 153%;
+    left: 45%;
+    width: 10%;
+    transform: rotate(20deg);
+}
+
+.lipenyo-img.logo {
+    top: 170%;
+    opacity: 0.2;
+}
+
+/*Fraiche*/
+.container.fraiche {
+    color: #ffffff;
+    background: radial-gradient(circle 50vw at bottom right, #00c800, #167016);
+}
+
+.fraiche.title {
+    font-weight: bolder;
+    z-index: 2;
+}
+
+.fraiche.text {
+    text-justify: newspaper;
+    z-index: 2;
+}
+
+.fraiche-img.home {
+    top: 200%;
+    left: 35%;
+    width: 20%;
+    transform: rotate(30deg);
+}
+
+.fraiche-img.splash {
+    top: 200%;
+    right: 10%;
+    width: 8%;
+    transform: rotate(30deg);
+}
+
+.fraiche-img.login{
+    top: 250%;
+    right: 20%;
+    width: 6%;    
+    transform: rotate(10deg);
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .mockup.fraiche {
+        top: 70%;
+        left: 15% !important;
+        max-width: 30vw;
+        height: auto;
+    }
+
+    .mockup.lipenyo {
+        top: -20%;
+        left: 30%;
+        transform: rotate(10deg);
+        max-width: 10vw;
+        height: auto;
+    }
+
+    .mockup.olbrs {
+        right: 0%;
+        max-width: 30vw;
+        height: auto;
+    }
+
+    #hero-project {
+        height: 30vh;
+        color: var(--light-theme-background-color);
+        background: radial-gradient(circle 50vw at bottom, var(--light-theme-secondary-color), var(--light-theme-primary-color));
+
+    }
+}

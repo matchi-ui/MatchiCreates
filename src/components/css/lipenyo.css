@@ -1,0 +1,14 @@
+.prototype-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    padding: 20px; /* Optional padding */
+  }
+  
+  .prototype-container iframe {
+    border: none;
+    border-radius: 8px; /* Optional: rounded corners */
+  } 
+  
