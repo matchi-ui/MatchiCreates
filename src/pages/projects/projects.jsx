@@ -5,7 +5,7 @@ import FraicheProto from '../../components/fraiche';
 import Fraiche from '../../assets/images/Mockups/Fraiche/Fraiche_Front.png';
 import lipenyo from '../../assets/images/Mockups/Tatak_Lipenyo/lipenyo_home.png';
 import olbrs from '../../assets/images/Mockups/OLBRS/olbrs_front.png';
-import lipenyo_splash from '../../assets/images/Mockups/Tatak_Lipenyo/lipenyo_splash.png';
+import lipenyo_splash from '../../assets/images/Mockups/Tatak_Lipenyo/Lipenyo_Splash.png';
 import lipenyo_dual from '../../assets/images/Mockups/Tatak_Lipenyo/lipenyo_selection.png';
 import lipenyo_logo from '../../assets/images/Mockups/Tatak_Lipenyo/lipenyo_logo.png';
 import fraiche_splash from '../../assets/images/Mockups/Fraiche/Fraiche_splash.png';
